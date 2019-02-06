@@ -2,7 +2,7 @@
 require 'json'
 
 class InjectableEnv
-  DefaultVarMatcher = /^JS_RUNTIME_/
+  DefaultVarMatcher = /^REACT_APP/
   Placeholder = /\{\{REACT_APP_VARS_AS_JSON_*?\}\}/
 
   def self.create(var_matcher=DefaultVarMatcher)

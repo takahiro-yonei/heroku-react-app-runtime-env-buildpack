@@ -22,8 +22,8 @@ cd $BUILD_DIR
 #
 # Keep any path or name changes in-sync.
 
-echo "       installing /app/.heroku-js-runtime-env/injectable_env.rb"
-lib_dir="$BUILD_DIR/.heroku-js-runtime-env"
+echo "       installing /app/.heroku-react-app-runtime-env/injectable_env.rb"
+lib_dir="$BUILD_DIR/.heroku-react-app-runtime-env"
 mkdir -p "$lib_dir"
 cp "$BP_DIR/lib/injectable_env.rb" "$lib_dir/"
 
